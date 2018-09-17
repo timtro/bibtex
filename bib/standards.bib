@@ -61,6 +61,15 @@
  , year = {2020}
 }
 
+@standard{P0051
+  , author = {Vicente J. Botet Escribá}
+  , title = {{C++} Generic Overload Function}
+  , institution = {ISO/IEC JTC1/SC22/WG21}
+  , number = {P0051R3}
+  , url = {https://wg21.link/p0051r3}
+  , year = {2018}
+}
+
 @standard{N4762
  , title = {Working Draft—Standard for Programming—Language {C++}}
  , institution = {ISO/IEC JTC1/SC22/WG21}
@@ -69,10 +78,11 @@
  , year = {2018}
 }
 
-@standard{ISOCPP:ranges,
- title = "{Programming languages -- C++ Extensions for ranges}",
- number = {ISO/IEC TS 21425:2017},
- year = {2017},
+@standard{ISOCPP:ranges
+ , title = {Programming languages -- C++ Extensions for ranges}
+ , institution = {ISO/IEC JTC1/SC22/WG21}
+ , number = {ISO/IEC TS 21425:2017}
+ , year = {2017}
 }
 
 @standard{N4015,
@@ -80,7 +90,7 @@
   title = {Proposal to add a utility class to represent expected monad},
   institution = {ISO/IEC JTC1/SC22/WG32},
   number = {N4015},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4015.pdf},
+  url = {https://wg21.link/n4015},
   year = {2014},
 }
 
@@ -89,7 +99,7 @@
   title = {Handling Disappointment in C++},
   institution = {ISO/IEC JTC1/SC22/WG21 EWG},
   number = {P0157R0},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0157r0.html},
+  url = {https://wg21.link/p0157r0},
   year = {2015},
 }
 
@@ -107,7 +117,7 @@
   title = {A proposal to add a utility class to represent expected monad},
   institution = {ISO/IEC JTC1/SC22/WG32},
   number = {N4569},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4015.pdf},
+  url = {https://wg21.link/n4569},
   year = {2016},
 }
 
@@ -115,8 +125,8 @@
   author = {Vicente J. Botet Escrib\'{a} and J. F. Bastien},
   title = {\texttt{std::expected}},
   institution = {ISO JTC1/SC22/WG21},
-  number = {P0323R4},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0323r4.html},
+  number = {P0323R7},
+  url = {https://wg21.link/p0323r7},
   year = {2014--2017},
 }
 
@@ -124,8 +134,8 @@
   author = {Vicente J. Botet Escrib\'{a}},
   title = {C++ Monadic Interface},
   institution = {ISO/IEC JTC1/SC22/WG21 LEWG},
-  number = {P0650R1},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0650r1.pdf},
+  number = {P0650R2},
+  url = {https://wg21.link/p0650r2},
   year = {2016--2017},
 }
 
@@ -134,7 +144,7 @@
   title = {Concerns about \texttt{expected<T, E>} from the {Boost.Outcome} peer review},
   institution = {ISO/IEC JTC1/SC22/WG21},
   number = {P0762R0},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0762r0.pdf},
+  url = {https://wg21.link/p0762r0},
   year = {2017},
 }
 
@@ -142,8 +152,8 @@
   author = {Vicente J. Botet Escrib\'{a}},
   title = {{ValuedOrError} and {ValueOrNone} types},
   institution = {ISO/IEC JTC1/SC22/WG21},
-  number = {P0786R0},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0786r0.pdf},
+  number = {P0786R1},
+  url = {https://wg21.link/p0786r1},
   year = {2017},
 }
 
@@ -152,7 +162,7 @@
   title = {Monadic operations for \texttt{std::optional}},
   institution = {ISO/IEC JTC1/SC22/WG21 LEWG},
   number = {P0798R0},
-  url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0798r0.html},
+  url = {https://wg21.link/p0798r0},
   year = {2017},
 }
 
@@ -161,8 +171,8 @@
   title = {Pattern Matching and Language Variants},
   institution = {ISO/IEC JTC1/SC22/WG21 EWG},
   number = {P0095R1},
+  url = {https://wg21.link/p0095r1},
   year = {2016},
-  url = {http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/p0095r1.html},
 }
 
 @standard{N3744
@@ -170,6 +180,7 @@
  , title = {Proposing \texttt{[[pure]]}}
  , institution = {ISO/IEC JTC1/SC22/WG21 EWG}
  , number = {N3744}
+ , url = {https://wg21.link/n3744}
  , year = {2013}
 }
 
@@ -178,7 +189,7 @@
  , title = {Unified Call Syntax}
  , institution = {ISO/IEC JTC1/SC22/WG21 EWG}
  , number = {N4165}
- , url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4165.pdf}
+ , url = {https://wg21.link/n4165}
  , year = {2014}
 }
 
@@ -186,16 +197,17 @@
  , author = {Richard Smith}
  , title = {Guaranteed copy elision through simplified value categories}
  , institution = {ISO/IEC JTC1/SC22/WG21 EWG}
- , number = {P0135}
- , url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0135r0.html}
+ , number = {P0135R1}
+ , url = {https://wg21.link/p0135r1}
  , year = {2015}
 }
+
 @standard{P0887
  , author = {Timur Doumler}
  , title = {The identity metafunction}
  , institution = {ISO/IEC JTC1/SC22/WG21 LWG}
  , number = {P0887R1}
- , url = {http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0887r1.pdf}
+ , url = {https://wg21.link/p0887r1}
  , year = {2018}
 }
 
