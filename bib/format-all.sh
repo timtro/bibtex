@@ -9,6 +9,7 @@ style=('--curly '
          '--duplicates=key,doi,citation'
          '--no-escape'
          '--remove-empty-fields'
+         '--sort=key'
         )
 # }}}
 # Order for field sorting {{{
@@ -56,11 +57,10 @@ field_order=('author,'
              'urldate,'
              'year'
             )
-# }}}
-
 field_order="${field_order[*]}" # Join array with spaces.
 field_order="${field_order// /}" # Remove spaces.
-sorting="--sort=key --sort-fields=$field_order"
-args="${style[*]} $sorting"
-echo "bibtex-tidy $args  *.bib"
+# }}}
+
+args="${style[*]} --sort-fields=$field_order"
+echo "bibtex-tidy $args *.bib"
 bibtex-tidy $args *.bib
