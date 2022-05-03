@@ -15,6 +15,7 @@ style=('--curly '
 # Order for field sorting {{{
 field_order=('author,'
              'title,'
+             'subtitle,'
              'shorttitle,'
              'booktitle,'
              'journal,'
