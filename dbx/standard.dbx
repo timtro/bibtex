@@ -1,0 +1,27 @@
+\DeclareDatamodelEntrytypes{standard}
+\DeclareDatamodelEntryfields[standard]{type,number}
+\DeclareBibliographyDriver{standard}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \setunit{\labelnamepunct}\newblock
+  \printfield{number}%
+  \newunit\newblock
+  \usebibmacro{title}%
+  \setunit{\addspace}\newblock
+  \printfield[parens]{type}%
+  \newunit\newblock
+  \printfield{edition}%
+  \newunit\newblock
+  \usebibmacro{location+date}%
+  \newunit\newblock
+  \iftoggle{bbx:url}
+    {\usebibmacro{url+urldate}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \newunit\newblock
+  \usebibmacro{related}%
+  \usebibmacro{finentry}
+}
