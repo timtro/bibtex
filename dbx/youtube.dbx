@@ -1,0 +1,71 @@
+\ProvidesFile{youtube.dbx}[2023/05/21 extended youtube data model]
+
+\DeclareDatamodelEntrytypes{youtube}
+
+\DeclareDatamodelFields[type=field, datatype=literal]{youtubeid}
+
+\DeclareDatamodelEntryfields[youtube]{
+  url,
+  title,
+  author,
+  date,
+  youtubeid,
+  addendum,
+  doi,
+  eprint,
+  eprintclass,
+  eprinttype,
+  note,
+  organization,
+  venue,
+  version,
+  urldate,
+  accessed,
+  series,
+  number,
+  issue,
+  month,
+  year,
+  publisher,
+  location,
+}
+
+\DeclareDatamodelConstraints[youtube]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{year}
+  }
+}
+
+\DeclareBibliographyDriver{youtube}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author}%
+  \setunit{\addspace\faYoutubePlay\addspace}%
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{byeditor+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{in:}%
+  \usebibmacro{journal+issuetitle}%
+  \newunit\newblock
+  \usebibmacro{byeditor+others}%
+  \newunit\newblock
+  \usebibmacro{note+pages}%
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \newunit\newblock
+  \usebibmacro{pageref}%
+  \usebibmacro{finentry}%
+}
+
+\endinput
