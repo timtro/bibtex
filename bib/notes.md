@@ -3,3 +3,7 @@
 ## Full names of authors
  * Michael Anthony Arbib
  * Howard Paul Zeiger went by H. Paul Zeiger
+ * Jan J. M. M. Rutten
+ * R. E. Kalman is Rudolf E. Kálmán.
+     + The native form is Kálmán Rudolf Emil
+ * H. Paul Zeiger = Howard Paul Zeiger
