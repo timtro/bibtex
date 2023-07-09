@@ -60,6 +60,7 @@ field_order=('author,'
              'endday,'
              'date,'
              'origdate,'
+             'issue',
              'issue_date,'
              'urldate,'
              'month,'
