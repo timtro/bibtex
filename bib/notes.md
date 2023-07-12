@@ -7,3 +7,4 @@
  * R. E. Kalman is Rudolf E. Kálmán.
      + The native form is Kálmán Rudolf Emil
  * H. Paul Zeiger = Howard Paul Zeiger
+ * J.A. Goguen = Joseph Amadee Goguen = Joseph A. Goguen
