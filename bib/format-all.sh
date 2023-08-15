@@ -58,12 +58,12 @@ field_order=('author,'
              'url,'
              'day,'
              'endday,'
-             'date,'
              'origdate,'
              'issue',
-             'issue_date,'
-             'urldate,'
              'month,'
+             'urldate,'
+             'issue_date,'
+             'date,'
              'year'
             )
 field_order="${field_order[*]}" # Join array with spaces.
