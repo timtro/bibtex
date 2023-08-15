@@ -10,6 +10,8 @@
 *.fot
 *.cb
 *.cb2
+# bibtex-tidy backups:
+*.bib.original
 
 ## Intermediate documents:
 *.dvi
