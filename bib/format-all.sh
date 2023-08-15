@@ -9,7 +9,7 @@ style=('--curly '
          '--duplicates=key,doi,citation'
          '--no-escape'
          '--remove-empty-fields'
-         '--sort=year,name'
+         '--sort=year,date,name'
         )
 #
 #         '--wrap=80'
