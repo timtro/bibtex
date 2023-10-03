@@ -10,6 +10,7 @@
  * J.A. Goguen = Joseph Amadee Goguen = Joseph A. Goguen
  * Brian D. O. Anderson = Brian David Outram Anderson
  * Manes = Ernest Gene Manes
+ * James Robin Bernard Cockett, goes by Robin Cockett.
 
 # General research notes:
  * Gougen 1971 Goguen1975DFAinCCCI, p. 23.
